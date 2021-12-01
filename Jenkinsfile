@@ -21,10 +21,16 @@ pipeline {
             echo 'This message is being printed due to the changed in Jenkins Dashboard'
           }
         }
-        
+
         stage('StageY') {
           steps {
             echo 'This message is being printed due to the changed in Jenkins Dashboard'
+          }
+        }
+
+        stage('Stage z') {
+          steps {
+            echo 'This is stage z'
           }
         }
 
